@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px !important;
+    background-color: rgb(144, 142, 142);
+    color:rgb(25, 27, 26) !important;
+}
+.po-re{
+    position: relative;
+}
+.flex{
+    display:flex;
+}
+.style-italic{
+    font-style: italic;
+    color:rgb(120, 120, 120);
+}
+.font-weight{
+    font-size: 13px;
+    font-weight: 400;
+}
+.font-weight-500{
+    font-size: 13px;
+    font-weight: 600;
+}
+.font-18{
+    font-size: 18px;
+    font-weight: 400;
+}
+.mg-b-5{
+    margin-bottom: 5px;
+}
+.mg-b-15{
+    margin-bottom: 15px;
+}
+#container {
+    padding-top:25px;
+    width:800px;
+    position: absolute;
+    left: 50%;
+    background-color: aliceblue;
+    transform: translate(-50%); 
+}
+#container_left,#container_right{
+    width:50%;
+}
+#container_left {
+    padding:0 15px;
+}
+.container_img img{
+    width:180px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+.container_img{
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    margin-bottom:35px;
+}
+.container_img>div{
+    width:184px;
+    height:184px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+#container_one{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#container_one h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+#container_one p{
+    font-size: 13px;
+}
+.container_title {
+    margin-bottom: 35px;
+}
+.container_title h1{
+    font-size: 18px;
+}
+.container_title i, .container_title p{
+    font-size: 13px;
+}
+.container_title h1{
+    margin-bottom: 10px;
+}
+.container_title .flex i {
+    margin:0 10px 10px 0;
+}
+#container_right {
+    padding:0 15px;
+    /* border-left: 1px solid black; */
+}
+#container_right > h2{
+    color:rgb(228, 0, 0);
+}
+
+.thongtincanhan{
+    top: 41%;
+    right: 0%;
+    height: 1px;
+    width: 184px;
+}
+.muctieu{
+    top: 50%;
+    right: 0%;
+    height: 1px;
+    width: 155px;
+}
+.cackynang{
+    top: 46%;
+    right: 0%;
+    height: 1px;
+    width: 241px;
+}
+.sothich{
+    top: 47%;
+    right: 0%;
+    height: 1px;
+    width: 273px;
+}
+.hocvan{
+    top: 40%;
+    right: 0%;
+    height: 1px;
+    width: 274px;
+}
+.kinhnghiem{
+    top: 40%;
+    right: 0%;
+    height: 1px;
+    width: 154px;
+}
+.hoatdong{
+    top: 40%;
+    right: 0%;
+    height: 1px;
+    width: 260px;
+}
+.chungchi{
+    top: 40%;
+    right: 0%;
+    height: 1px;
+    width: 263px;
+}
+.danhhieu{
+    top: 40%;
+    right: 0%;
+    height: 1px;
+    width: 120px;
+}
+.thongtinthem{
+    top: 40%;
+    right: 0%;
+    height: 1px;
+    width: 210px;
+}
+.thongtincanhan,
+.muctieu,
+.cackynang,
+.sothich,
+.hocvan,
+.kinhnghiem,
+.hoatdong,
+.chungchi,
+.danhhieu,
+.thongtinthem{
+    position: absolute;
+    background-color: black;
+}
